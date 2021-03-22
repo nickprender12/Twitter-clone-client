@@ -17,7 +17,9 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'no-unused-vars': 0,
+  },
   globals: {
     angular: false,
     module: false,
