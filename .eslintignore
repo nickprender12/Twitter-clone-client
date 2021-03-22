@@ -16,3 +16,4 @@ yarn-debug.log*
 yarn-error.log*
 serviceWorker.js
 App.test.js
+/src/components/index.js
