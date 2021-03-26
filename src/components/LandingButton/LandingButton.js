@@ -1,7 +1,9 @@
 import React from 'react';
+import { Btn } from './styles';
 
-const LandingButton = (props) => {
-  return <div>LandingButton</div>;
+// eslint-disable-next-line react/prop-types
+const LandingButton = ({ text, variant }) => {
+  return <Btn variant={variant}>{text}</Btn>;
 };
 
 export default LandingButton;
