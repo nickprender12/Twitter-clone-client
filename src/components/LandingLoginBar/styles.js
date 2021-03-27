@@ -21,7 +21,7 @@ export const Wrapper = styled(Form)`
 `;
 
 export const Btn = styled(Button)`
-  background: white;
+  background: transparent;
   color: rgb(29, 161, 242);
   font-size: 1em;
   font-weight: bold;

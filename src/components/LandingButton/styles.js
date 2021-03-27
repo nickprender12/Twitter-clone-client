@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 
 export const Btn = styled(Button)`
   background: ${(props) =>
-    props.variant === 'primary' ? 'rgb(29, 161, 242)' : 'white'};
+    props.variant === 'primary' ? 'rgb(29, 161, 242)' : 'transparent'};
   color: ${(props) =>
     props.variant === 'primary' ? 'white' : 'rgb(29, 161, 242)'};
   font-size: 1em;
